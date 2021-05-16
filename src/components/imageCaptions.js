@@ -1,4 +1,3 @@
-import React from 'react';
 
 export const fortuna = "This is a design for a school project. Design was made in Figma both mobile and desktop version.  My thoughts behind the site was that you were going to be able to sell and buy used books.";
 export const greenreload ="This is a design I made for a work application, it was made in Figma. The application contained mobile platform design and later also coding of the design. The assignment was to make a site for an asian restaurant. ";

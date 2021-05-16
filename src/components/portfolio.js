@@ -59,7 +59,7 @@ const [Iimage, setIImage] = useState({});
   function setImageFunctionVaska (){
     setImageCaption(imageCaptions.vaska);
     setIImage(vaska);
-    setImageTitle('Vaska <a>aaaaaa</a>')
+    setImageTitle('Vaska')
 
     return(imageCaption, Iimage,imageTitle)
   }
