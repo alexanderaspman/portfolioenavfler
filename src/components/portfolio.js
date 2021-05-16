@@ -250,16 +250,14 @@ const Carousel = () => {
     setIImage(blcac);
     setImageTitle('Rain man - App')
 
-    setIdSection("#section__app");
 
     return(imageCaption, Iimage,imageTitle)
   }
   function setImageFunctionIllustration (){
-    setImageCaption(imageCaptions.app);
+    setImageCaption(imageCaptions.illustration);
     setIImage(seed);
     setImageTitle('Illustration');
 
-    setIdSection("#section__app");
     return(imageCaption, Iimage,imageTitle)
   }
   function setImageFunctionGamemaker (){
@@ -267,12 +265,10 @@ const Carousel = () => {
     setIImage(gameMaker);
     setImageTitle('Gamemakers');
 
-    setIdSection("#section__app");
     return(imageCaption, Iimage,imageTitle)
   }
   
   const [imageCaption ,setImageCaption] = useState()
-  const [idSection ,setIdSection] = useState()
   const [imageTitle ,setImageTitle] = useState()
 
   return (
