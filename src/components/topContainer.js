@@ -1,7 +1,7 @@
 import React from 'react'
 import profile from '../images/profile.png'
 
-const TopContainer = () =>{
+export default function TopContainer (){
 
     return (
 
@@ -24,4 +24,3 @@ const TopContainer = () =>{
   </div>
   </section>)
   };
-  export default  TopContainer

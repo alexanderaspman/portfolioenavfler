@@ -124,9 +124,9 @@ const [Iimage, setIImage] = useState({});
             onClick={toggleIsOn}
             alt=""
           />
-          <caption>
+          <p>
           Fortuna - design
-          </caption>
+          </p>
           
          
        
@@ -141,9 +141,9 @@ const [Iimage, setIImage] = useState({});
             onClick={toggleIsOn}
             alt=""
           />
-           <caption>
+           <p>
            Vaska.nu - webshop
-                     </caption>
+                     </p>
          
          </div>
 <div className="col-md-6 portfolio__case" id="section__gamemaker" onClick={()=>setImageFunctionGamemaker()}>
@@ -153,9 +153,9 @@ const [Iimage, setIImage] = useState({});
             onClick={toggleIsOn}
             alt=""
           />
-           <caption>
+           <p>
            Gamemaker - design/code
-          </caption>
+          </p>
          
          </div>
         </div>
@@ -169,9 +169,9 @@ const [Iimage, setIImage] = useState({});
             onClick={toggleIsOn}
             alt=""
           />
-           <caption>
+           <p>
            Black jack - app
-          </caption>
+          </p>
          
          </div>
 <div className="col-md-6 portfolio__case" id="section__illustration" onClick={()=>setImageFunctionIllustration ()}>
@@ -181,9 +181,9 @@ const [Iimage, setIImage] = useState({});
             onClick={toggleIsOn}
             alt=""
           />
-           <caption>
+           <p>
            Illustration - Illustrator 
-          </caption>
+          </p>
          
          </div>
         </div>
@@ -195,9 +195,9 @@ const [Iimage, setIImage] = useState({});
             onClick={toggleIsOn}
             alt=""
           />
-           <caption>
+           <p>
            Green reload - design
-          </caption>
+          </p>
          
          </div>
 
