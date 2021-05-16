@@ -1,0 +1,56 @@
+html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+  max-width: 100%;
+  width: 100%;
+}
+
+.text-white-75 {
+  color: fade-out($white, .25);
+}
+
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+}
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+.page-section {
+  padding: 8rem 0;
+}
+caption{
+  width: 100%;
+  background-color: black;
+  display: block;
+  color: white;
+  padding-left: 25px;
+}
