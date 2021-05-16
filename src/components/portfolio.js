@@ -102,7 +102,7 @@ const [Iimage, setIImage] = useState({});
   const [imageTitle ,setImageTitle] = useState()
 
   return (
-    <section className="portfolio" id="portfolio-section">
+    <section className="portfolio" >
           {isOn && (
           <PortfolioModal
       

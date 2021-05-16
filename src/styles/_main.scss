@@ -68,8 +68,17 @@ h2{
 .portfolio__case{
   padding-bottom: 30px;
 }
-.captions{
-  color: white;
-  text-align: left;
+
+.portfolio__case > p{
+  
+    color: white;
+    text-align: left;
+  
+  
+    width: 100%;
+    background-color: black;
+    display: block;
+    color: white;
+    padding-left: 25px;
 
 }
