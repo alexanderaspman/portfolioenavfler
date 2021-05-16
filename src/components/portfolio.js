@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import gameMaker from "../images/gamemaker.jpg";
 import gameMakerPreview from "../images/gamemakers_preview.png";
 import vaskaPreview from "../images/vaskaShop.png";
-import vaska from "../images/Category.png";
+import vaska from "../images/vaska.png";
 import seed from "../images/hitandrun.jpg";
 import seeding from "../images/seeder_preview.png";
 import blcac from "../images/blcac.jpg";
@@ -11,9 +11,7 @@ import greenreload from "../images/greenreload.png";
 import greenreloadPreview from "../images/greenreload_preview.png";
 import fortunaPreview from "../images/fortune_previews.png";
 import fortuna from "../images/fortuna.jpg";
-import close from "../images/close.svg";
 import * as imageCaptions from './imageCaptions';
-import card1 from '../images/profilbild.jpg';
 
 
 const Portfolio =()=>{ 
@@ -88,7 +86,7 @@ const [Iimage, setIImage] = useState({});
   function setImageFunctionIllustration (){
     setImageCaption(imageCaptions.illustration);
     setIImage(seed);
-    setImageTitle('Illustration');
+    setImageTitle('Illustration - I no longer seed');
 
     return(imageCaption, Iimage,imageTitle)
   }

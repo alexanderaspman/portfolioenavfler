@@ -48,7 +48,7 @@ h2{
    padding-bottom: 60px;
 /* width has to be 70% of height */
 /* could use width:70%; in a square container */
-   height:300px;
+   height:350px;
    background-color:#FCA58A;
    max-width: 100%;
   
@@ -61,6 +61,7 @@ h2{
 
    @media screen and (max-width: $medium-screen) {
      margin: auto;
+     height: 300px;
    }
 }
 
