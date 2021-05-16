@@ -1,48 +1,38 @@
-/************************************
-1. If you want to add or remove items you will need to change a variable called $slide-count in the CSS *minimum 3 slides
-
-2. if you want to change the dimensions of the slides you will need to edit the slideWidth variable here 👇 and the $slide-width variable in the CSS.
-************************************/
-import React from 'react';
-import card1 from '../images/profilbild.jpg';
-
-
-
 const slideWidth = 30;
 
 const _items = [
     {
-        player: {
-            title: 'Efren Reyes',
-            desc: 'Known as "The Magician", Efren Reyes is well regarded by many professionals as the greatest all around player of all time.',
-            image: card1,
+        portfolioImage: {
+            title: '',
+            desc: '',
+            image: Iimage,
         },
     },
     {
-        player: {
-            title: "Ronnie O'Sullivan",
-            desc: "Ronald Antonio O'Sullivan is a six-time world champion and is the most successful player in the history of snooker.",
-            image: card1,
+        portfolioImage: {
+            title: "",
+            desc: "",
+            image: Iimage,
         },
     },
     {
-        player: {
-            title: 'Shane Van Boening',
-            desc: 'The "South Dakota Kid" is hearing-impaired and uses a hearing aid, but it has not limited his ability.',
-            image: card1,
+        portfolioImage: {
+            title: '',
+            desc: '',
+            image: Iimage,
         },
     },
     {
-        player: {
-            title: 'Mike Sigel',
-            desc: 'Mike Sigel or "Captain Hook" as many like to call him is an American professional pool player with over 108 tournament wins.',
-            image: card1,
+        portfolioImage: {
+            title: '',
+            desc: '',
+            image: Iimage,
         },
     },
     {
-        player: {
-            title: 'Willie Mosconi',
-            desc: 'Nicknamed "Mr. Pocket Billiards," Willie Mosconi was among the first Billiard Congress of America Hall of Fame inductees.',
+        portfolioImage: {
+            title: '',
+            desc: '',
             image: card1,
         },
     },
@@ -60,7 +50,7 @@ const createItem = (position, idx) => {
         styles: {
             transform: `translateX(${position * slideWidth}rem)`,
         },
-        player: _items[idx].player,
+        portfolioImage: _items[idx].portfolioImage,
     };
 
     switch (position) {
@@ -84,11 +74,11 @@ const CarouselSlideItem = ({pos, idx, activeIdx}) => {
     return (
         <li className="carousel__slide-item" style={item.styles}>
             <div className="carousel__slide-item-img-link">
-                <img src={item.player.image} alt={item.player.title} />
+                <img src={item.portfolioImage.image} alt={item.portfolioImage.title} />
             </div>
             <div className="carousel-slide-item__body">
-                <h4>{item.player.title}</h4>
-                <p>{item.player.desc}</p>
+                <h4>{item.portfolioImage.title}</h4>
+                <p>{item.portfolioImage.desc}</p>
             </div>
         </li>
     );
@@ -170,4 +160,3 @@ const Carousel = () => {
     );
 };
 
-export default Carousel
