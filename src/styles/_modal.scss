@@ -231,6 +231,10 @@ $slide-width: 30rem;
   color: rgb(255, 255, 255);
   padding: 10px 0;
   text-align: left;
+  @media screen and (max-width: $medium-screen) {
+    text-align: center;
+margin: 0 30px
+  }
 }
 
 /* Add Animation */
