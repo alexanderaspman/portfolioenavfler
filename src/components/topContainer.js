@@ -17,7 +17,9 @@ export default function TopContainer (){
       </div>
       <div className="col-lg-6">
         <figure id="shape">        
-          <img className="intro__profile" src={profile} />
+          <img className="intro__profile" 
+          src={profile}
+          alt="" />
         </figure>
       </div>
     </div>

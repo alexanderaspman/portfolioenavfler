@@ -2,8 +2,8 @@
 
 import './styles/style.scss';
 import TopContainer from './components/topContainer';
-// import Info from './components/Info';
-// import Portfolio from './components/portfolio'
+import Info from './components/Info';
+import Portfolio from './components/portfolio'
 
 
 
@@ -13,9 +13,9 @@ function App() {
       <div className="container">
       <TopContainer/>
   
-     {/* <Info/>
+     <Info/>
   
-     <Portfolio/> */}
+     <Portfolio/>
       </div>
     </main>
   );
