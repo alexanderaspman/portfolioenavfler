@@ -4,6 +4,7 @@ import './styles/style.scss';
 import TopContainer from './components/topContainer';
 import Info from './components/Info';
 import Portfolio from './components/portfolio'
+import Footer from './components/footer'
 
 
 
@@ -16,6 +17,7 @@ function App() {
      <Info/>
   
      <Portfolio/>
+     <Footer/>
       </div>
     </main>
   );

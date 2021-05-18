@@ -31,7 +31,7 @@ const [Iimage, setIImage] = useState({});
               <div className="col-lg-6 portfolioModal-content"><img
        className="image"
        src={Iimage}
-       alt="no image" /></div>   
+       alt="" /></div>   
          <div className="col-lg-6 captions">
              <h2>{imageTitle}</h2>
                <p>{imageCaption}</p> 
@@ -48,6 +48,10 @@ const [Iimage, setIImage] = useState({});
       }
     const [isOn,toggleIsOn] = useToggle()
 
+const vaskaLink = () =>{
+  <> <br/> <a href="https://cocky-johnson-891fb3.netlify.app"> Take me to the website</a></>
+}
+
   function useToggle(initialValue = false) {
     const [value, setValue] = React.useState(initialValue);
     const toggle = React.useCallback(() => {
@@ -57,7 +61,7 @@ const [Iimage, setIImage] = useState({});
 
   }
   function setImageFunctionVaska (){
-    setImageCaption(imageCaptions.vaska);
+    setImageCaption(imageCaptions.vaska,{vaskaLink});
     setIImage(vaska);
     setImageTitle('Vaska')
 

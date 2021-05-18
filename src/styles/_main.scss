@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  font-family: roboto;
 
 }
 
@@ -81,4 +82,10 @@ h2{
     color: white;
     padding-left: 25px;
 
+}
+.footer{
+  display: flex;
+}
+.footer__contact{
+margin-bottom: 10px;
 }
