@@ -8,7 +8,10 @@ import envelope from '../images/envelope.svg'
 
 return(
     <section className="footerSection">
-                <h2>Contact me</h2>
+        <div className="contactMe">
+        <h2>Contact me</h2>
+
+        </div>
 
         <div className="row footer">
 
