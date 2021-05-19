@@ -15,7 +15,7 @@ return(
 
 
             <div className="footer__contact col-md-7">
-             <p>I am currently looking for job as a developer. If you find my work interesting and want to find out more about me, contact me at: aspmanalexander@gmail.com.</p>
+             <p>I am currently looking for job as a developer. If you find my work interesting and want to find out more about me, contact me at: <a href="mailto:aspmanalexander@gmail.com">aspmanalexander@gmail.com</a>.</p>
          
 
             </div>
@@ -31,7 +31,7 @@ return(
               
     
     </div> 
-    <div className="col-10 ">   <a href="github.com/alexanderaspman">github.com/alexanderaspman</a></div>
+    <div className="col-10 ">   <a href="https://github.com/alexanderaspman?tab=repositories">github.com/alexanderaspman</a></div>
   
     </div> 
     
@@ -44,7 +44,7 @@ return(
                alt=''/>
     
     </div>
-    <div className="col-10"> <a href="linkedin.com/in/alexanderaspman">linkedin.com/in/alexanderaspman</a></div>
+    <div className="col-10"> <a href="https://www.linkedin.com/in/alexanderaspman/">linkedin.com/in/alexanderaspman</a></div>
    
     </div>
           
