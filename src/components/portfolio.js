@@ -186,7 +186,7 @@ const vaskaLink = () =>{
             alt=""
           />
            <p>
-           Illustration - Illustrator 
+           Logga - Illustrator 
           </p>
          
          </div>
