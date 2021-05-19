@@ -3,8 +3,8 @@ import gameMaker from "../images/gamemaker.jpg";
 import gameMakerPreview from "../images/gamemakers_preview.png";
 import vaskaPreview from "../images/vaskaShop.png";
 import vaska from "../images/vaska.png";
-import seed from "../images/hitandrun.jpg";
-import seeding from "../images/seeder_preview.png";
+import seed from "../images/hjalpenhemlos.png";
+import seeding from "../images/hjalpenhemlos_previews.png";
 import blcac from "../images/blcac.jpg";
 import bj from "../images/blackJack_preview.png";
 import greenreload from "../images/greenreload.png";
@@ -90,7 +90,7 @@ const vaskaLink = () =>{
   function setImageFunctionIllustration (){
     setImageCaption(imageCaptions.illustration);
     setIImage(seed);
-    setImageTitle('Illustration - I no longer seed');
+    setImageTitle('Hjälpenhemlös.se');
 
     return(imageCaption, Iimage,imageTitle)
   }
