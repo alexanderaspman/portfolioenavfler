@@ -35,6 +35,7 @@ const [Iimage, setIImage] = useState({});
          <div className="col-lg-6 captions">
              <h2>{imageTitle}</h2>
                <p>{imageCaption}</p> 
+        <a href={ILink}>{ILink}</a>
             </div>  
           
           
@@ -64,6 +65,7 @@ const vaskaLink = () =>{
     setImageCaption(imageCaptions.vaska,{vaskaLink});
     setIImage(vaska);
     setImageTitle('Vaska')
+    setILink("https://cocky-johnson-891fb3.netlify.app")
 
     return(imageCaption, Iimage,imageTitle)
   }
@@ -104,6 +106,7 @@ const vaskaLink = () =>{
   
   const [imageCaption ,setImageCaption] = useState()
   const [imageTitle ,setImageTitle] = useState()
+  const [ILink ,setILink] = useState()
 
   return (
     <section className="portfolio">
