@@ -5,7 +5,7 @@ import vaskaPreview from "../images/vaskaShop.png";
 import vaska from "../images/vaska.png";
 import seed from "../images/hjalpenhemlos.png";
 import seeding from "../images/hjalpenhemlos_previews.png";
-import blcac from "../images/blcac.jpg";
+import blcac from "../images/RainMan.png";
 import bj from "../images/blackJack_preview.png";
 import greenreload from "../images/greenreload.png";
 import greenreloadPreview from "../images/greenreload_preview.png";
